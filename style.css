@@ -1,0 +1,8 @@
+.wrap {background-color:rgb(236, 234, 234) ;}
+.wrap {
+    background-color: rgb(223, 221, 221);
+}
+<section class="wrap">
+        <p>Hello</p>
+
+    </section>

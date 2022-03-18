@@ -1,7 +1,9 @@
 ## Grigory Appolonov
 ### Contacts
 Location: RF, Moscow 
+
 mail: greg358@mail.ru
+
 GitHub: [Greg-App](https://github.com/Greg-App) 
 
 ### About me

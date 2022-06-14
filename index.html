@@ -1,14 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Position_CSS.css">
+    <title>CV</title>
 </head>
+
 <body>
-<p>Test Page</p>
+    <header>
+        <div>
+            <div class="div_header">
+                <h1>Appolonov Grigory</h1>
+                <h3>Junior frontend developer</h3>
+            </div>
+
+            <img class="avatar" src="Avatar.jpg" alt="avatar">
+
+        </div>
+
+        <nav>
+            <ul class="nav-list" id="menu">
+                <li><a href="#cont">Contacts</a></li>
+                <li><a href="#sum">Summary</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#cod">Code</a></li>
+                <li><a href="#proj">Projects</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#langu">Language</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+           <section id="cont">
+            <h2>Contacts</h2>
+            <ul class="nav-list-contact">
+                <li>Location: Russia, Moscow</li>
+                <li>GitHub: <a href="https://github.com/Greg-App" target="_blank">@Greg-App</a></li>
+                <li>Mail: <a href="mailto:greg358@mail.ru" target="_blank">greg358@mail.ru</a></li>
+                <li>Phone: +7-123-456-78-90</li>
+                <li>Discord: Grigory#2791</li>
+            </ul>
+        </section> 
+        <section id="sum">
+            <h2>Summary</h2>
+            <p> Having more than 15 years experience in telecommunication as a radio network optimization engineer.
+                Willing to switch to SW development as i am really interested in it</p>
+        </section>
+        <section id="skill">
+            <h2>Skills</h2>
+            <ul>
+                <li>SQL Basic</li>
+                <li>VBA Basic</li>
+                <li>HTML/CSS Basic</li> 
+                <li>JS Basic</li>
+            </ul>
+        </section> 
+        <section  id="cod">
+            <h2>Code Example</h2>
+            <pre><code>function solution(number){
+                    let sum = 0;
+                    if (number &lt; 0)  return 0;
+                    for(let i=1;i &lt; number;i++) { 
+                        if (i%3 ===0 || i%5 ===0) {
+                            sum = sum + i;
+                        }
+                    }
+                    return sum;
+              } 
+            </code>
+            </pre>  
+                
+        </section>      
+        <section id="proj">
+            <h2>Projects</h2>
+            <ul class="nav-list-clear">
+                <li><a href="https://greg-app.github.io/rsschool-cv/cv" target="_blank">RS-School CV</a></li>
+            </ul>
+        </section> 
+        <section id="edu">
+            <h2>Education</h2>
+            <p> <b>Universiity:</b>  Moscow Technical University of Communications and Informatics (MTUCI)</p>
+        </section> 
+        <section id="langu">
+            <h2>Language</h2>
+            <p> <b>English:</b> B1,B2 </p> 
+            <p> <b>Rassuian:</b> Native </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="div-footer">
+            <br>
+            <b>2022</b> <br>
+            <a href="https://github.com/Greg-App/rsschool-cv" target="_blank">GitHub:@Greg-App</a> <br>
+        </div>
+        <a href="https://rs.school/js/" target="_blank"><img class="img-footer"  src="https://rs.school/images/rs_school_js.svg" alt="rs_School"></a>
+
+    </footer>
+
+
 </body>
+
 </html>
